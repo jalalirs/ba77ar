@@ -1,0 +1,28 @@
+{
+	"Pipeline": [
+		// {
+		// 	"CMD" : "scrape",
+		// 	"What": "diwan",
+		// 	"Target": "poems", 
+		// 	"From": 1000,
+		// 	"To": 50000,
+		// 	"Sample": 6000,
+		// 	"SaveTo": "/Users/jalalirs/Documents/technincal_material/code/github.nosync/wazzan/diwan/html2/"
+		// },
+		// {
+		// 	"CMD" : "compile",
+		// 	"What": "diwan",
+		// 	"Target": "poems", 
+		// 	"Source": "/Users/jalalirs/Documents/technincal_material/code/github.nosync/wazzan/diwan/html2/",
+		// 	"SaveTo": "/Users/jalalirs/Documents/technincal_material/code/github.nosync/wazzan/diwan/poems.text"
+		// },
+		{
+			"CMD" : "sample",
+			"Method": "bahar_uniform",
+			"From": "/Users/jalalirs/Documents/technincal_material/code/github.nosync/wazzan/diwan/poems.text", 
+			"Samples": 60,
+			"Padding": 4,
+			"SaveTo": "/Users/jalalirs/Documents/technincal_material/code/github.nosync/wazzan/diwan/data.json"
+		}		
+	]
+}
